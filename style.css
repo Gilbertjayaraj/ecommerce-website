@@ -1,0 +1,12 @@
+/* Extra styling (optional) */
+body {
+  scroll-behavior: smooth;
+}
+
+#products img {
+  transition: transform 0.2s;
+}
+
+#products img:hover {
+  transform: scale(1.05);
+}
